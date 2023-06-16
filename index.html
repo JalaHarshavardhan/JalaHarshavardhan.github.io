@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha - The busiest portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Poppins:wght@400;700&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body href="/">
+    <header>
+        <nav>
+            <div class="left">Harsha's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Harsha</span>
+
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="/CV.pdf"> <button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/JalaHarshavardhan" target="_blank"> <button class="btn">Visit
+                            Github</button></a>
+
+                </div>
+            </div>
+            <!-- Element to contain animated typing -->
+            <div class="rightSection">
+                <img src="developer.png" alt="">
+                <div class="sign">
+                    <img src="sign.png" alt="">
+                        <span class="name">Jala Harshavardhan</span>
+                </div>
+                
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            Mobile : +91 9440982276
+            <br>
+            Email : jalaharsha125@gmail.com
+        </section>
+    
+    </main>
+
+    <footer>
+        <div class="icons">
+            <a class="icon" href="https://www.facebook.com/HarshaHoneyh"><img id="fb" src="facebook.png" alt=""></a>
+            <a class="icon" href="https://www.instagram.com/busy_bee.01/"><img id="ig" src="instagram.png" alt=""></a>
+            <a class="icon" href="https://wa.me/9440982276"><img id="wt" src="whatsapp.png" alt=""></a>
+            <a class="icon" href="https://twitter.com/jalaharsha"><img id="tw" src="twitter.png" alt=""></a>
+        </div>
+        
+        <div class="text">
+            <p style="font-family: 'Ubuntu';">
+                <br>Copyrights © harshasportfolio.com | All rights reserved
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Android Developer', 'Graphic Designer.'],
+            typeSpeed: 43,
+        });
+    </script>
+</body>
+
+</html>
